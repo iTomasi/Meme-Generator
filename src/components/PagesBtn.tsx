@@ -2,8 +2,8 @@ import React from "react";
 import "./css/pagesBtn.css"
 
 interface IPagesBtn {
-    num1: string,
-    num2: string,
+    num1: number,
+    num2: number,
     onClick: any
 }
 
