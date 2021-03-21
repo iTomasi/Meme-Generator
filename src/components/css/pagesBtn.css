@@ -1,0 +1,20 @@
+.pagesBtn {
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    width: 900px;
+    margin: 30px auto 0 auto;
+    background: #1f2833;
+    align-items: center;
+    padding: 10px 30px;
+}
+
+.pagesBtn button {
+    min-height: 35px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 20px;
+    padding: 0 20px;
+    border-radius: 5px;
+}

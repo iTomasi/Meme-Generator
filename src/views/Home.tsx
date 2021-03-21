@@ -1,5 +1,6 @@
 import React, {useState, useEffect} from "react";
 import CardMeme from "../components/CardMeme";
+import PagesBtn from "../components/PagesBtn";
 import "./css/home.css";
 
 const Home = () => {
@@ -16,8 +17,13 @@ const Home = () => {
             })
     }, [])
 
+    const btnPagesEvent = () => {
+        console.log("Works")
+    }
+
     return (
         <>
+        <PagesBtn num1="1" num2="20" onClick={btnPagesEvent} />
         <div className="content">
             {
                 memeList.map((meme: any) => (
@@ -25,6 +31,7 @@ const Home = () => {
                 ))
             }
         </div>
+        <PagesBtn num1="1" num2="20" onClick={btnPagesEvent} />
         </>
     )
 }
