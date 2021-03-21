@@ -1,0 +1,53 @@
+.memeForm {
+    width: 700px;
+    margin: 30px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.memeForm img {
+    width: 100%;
+    height: 400px;
+}
+
+.memeForm .iw_form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    font-size: 20px;
+    align-items: center;
+    margin-top: 20px;
+    background: #1f2833;
+    padding: 10px 0;
+}
+
+.memeForm .iw_form .formSection label {
+    display: block;
+    margin-bottom: 15px;
+}
+
+.memeForm .iw_form .formSection input {
+    background: #0b0c10;
+    padding: 5px;
+    border: none;
+    outline: none;
+    color: #f9f9f9;
+    font-size: 20px;
+}
+
+.memeForm .iw_form .formSection {
+    margin-bottom: 20px;
+}
+
+.memeForm .iw_form button[type="submit"] {
+    background: transparent;
+    font-size: 20px;
+    border: 2px solid #66fcf1;
+    outline: none;
+    min-height: 35px;
+    color: #f9f9f9;
+    width: 50%;
+    cursor: pointer;
+}
