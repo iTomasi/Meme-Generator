@@ -4,3 +4,17 @@
     gap: 20px;
     justify-content: center;
 }
+
+@media screen and (max-width: 1020px) {
+    .content {
+        width: 90%;
+        margin: auto;
+        grid-template-columns: repeat(2, 300px);
+    }
+}
+
+@media screen and (max-width: 715px) {
+    .content {
+        grid-template-columns: 300px;
+    }
+}

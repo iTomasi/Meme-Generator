@@ -18,3 +18,21 @@
     padding: 0 20px;
     border-radius: 5px;
 }
+
+@media screen and (max-width: 1020px) {
+    .pagesBtn {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 360px) {
+
+    .pagesBtn {
+        font-size: 18px;
+    }
+
+    .pagesBtn button {
+        font-size: 18px;
+        padding: 0 10px
+    }
+}

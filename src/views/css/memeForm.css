@@ -51,3 +51,34 @@
     width: 50%;
     cursor: pointer;
 }
+
+@media screen and (max-width: 800px) {
+    .memeForm {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 500px) {
+
+    .memeForm img {
+        height: 350px;
+    }
+
+    .memeForm .iw_form button[type="submit"] {
+        width: 80%;
+    }
+
+    .memeForm .iw_form .formSection {
+        width: 70%;
+    }
+
+    .memeForm .iw_form .formSection input {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .memeForm img {
+        height: 250px;
+    }
+}

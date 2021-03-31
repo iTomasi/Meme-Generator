@@ -17,6 +17,7 @@ const MemeForm = () => {
                 setImgMeme(gettingMeme[0].url);
             })
 
+        // eslint-disable-next-line
     }, [])
 
     const sendingText = (e: any) => {
