@@ -29,8 +29,8 @@ const MemeForm = () => {
             template_id: id,
             text0: formData.get("text1"),
             text1: formData.get("text2"),
-            username: "memeprojecttypescript",
-            password: "memeprojectxD"
+            username: process.env.REACT_APP_USERNAME,
+            password: process.env.REACT_APP_PASSWORD
         }
 
         fetch(`https://api.imgflip.com/caption_image?template_id=${imgFlipParams.template_id}&text0=${imgFlipParams.text0}&text1=${imgFlipParams.text1}&username=${imgFlipParams.username}&password=${imgFlipParams.password}`)
